@@ -25,6 +25,7 @@ export default function Login() {
             await authenticateUser(user, password);
             await updateAtoms();
             router.push('/favourites');
+            
         } catch (err) {
             console.log(err);
             setWarning(err.message);

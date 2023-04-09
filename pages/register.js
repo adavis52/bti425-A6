@@ -38,7 +38,7 @@ export default function Register() {
                     <Form.Label>Password:</Form.Label><Form.Control type='password' value={password} id='password' name='password' onChange={e => setPassword(e.target.value)} />
                 </Form.Group>
                 <Form.Group>
-                    <Form.Label>Confirm Password:</Form.Label><Form.Control type='password' value={password2} id='password' name='password' onChange={e => setPassword2(e.target.value)} />
+                    <Form.Label>Confirm Password:</Form.Label><Form.Control type='password' value={password2} id='password2' name='password' onChange={e => setPassword2(e.target.value)} />
                 </Form.Group>
                 <br />
                 <Button variant='primary' className='pull-right' type='submit'>Register</Button>
